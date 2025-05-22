@@ -9,7 +9,11 @@ A ferramenta foi criada inteiramente com **Python** e bibliotecas como **Numpy**
 
 ## Exemplo presente
 Como exemplo do execução do código temos caracteres num display 12x10 pixels traduzidos em vetores linhas na forma bipolar com 120 colunas no arquivo **x_test.csv**;
-Já para as respostas há um arquivo nomeado **y_test.scv** listando em letras maiúsculas o que cada umas das linhas representa. *OBS: No código é usado um artifício para transformar as letras em vetores one-hot binários para codificação da rede, uma vez que o modelo aceita apenas números*
+Já para as respostas há um arquivo nomeado **y_test.scv** listando em letras maiúsculas o que cada umas das linhas representa. *OBS: No código é usado um artifício para transformar as letras em vetores one-hot binários para codificação da rede, uma vez que o modelo aceita apenas números*.
+***O teste em si de caracteres com ruídos para predição da rede pós treino está presente a partir da linha 1196 dos datasets***
+
+## Como rodar
+Para rodar ou analisar o código, faça o download do arquivo do código e os datasets e os abra num jupyter notebook
 
 
 
